@@ -17,21 +17,6 @@ This course walks you through building a complete nanopayment system:
 
 ## Usage
 
-### With npx (recommended)
-
-No installation required — run directly:
-
-```json
-{
-  "mcpServers": {
-    "circle-nanopayments": {
-      "command": "npx",
-      "args": ["-y", "@circle-developer/nanopayments-mcp-course"]
-    }
-  }
-}
-```
-
 ### With Cursor
 
 Add to `.cursor/mcp.json` in your project:
@@ -41,7 +26,7 @@ Add to `.cursor/mcp.json` in your project:
   "mcpServers": {
     "circle-nanopayments": {
       "command": "npx",
-      "args": ["-y", "@circle-developer/nanopayments-mcp-course"]
+      "args": ["-y", "github:circle-ccooper/nanopayments-mcp-course"]
     }
   }
 }
@@ -58,7 +43,7 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
   "mcpServers": {
     "circle-nanopayments": {
       "command": "npx",
-      "args": ["-y", "@circle-developer/nanopayments-mcp-course"]
+      "args": ["-y", "github:circle-ccooper/nanopayments-mcp-course"]
     }
   }
 }
@@ -67,8 +52,8 @@ Add to your Claude Desktop config (`~/Library/Application Support/Claude/claude_
 ### From source
 
 ```bash
-git clone <repo-url>
-cd package
+git clone https://github.com/circle-ccooper/nanopayments-mcp-course.git
+cd nanopayments-mcp-course
 npm install
 node dist/stdio.js
 ```
