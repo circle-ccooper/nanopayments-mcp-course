@@ -1,0 +1,49 @@
+{
+  "name": "@circle-developer/nanopayments-mcp-course",
+  "version": "1.0.0",
+  "description": "MCP server course for building nanopayments with Circle Gateway, USDC, and the x402 protocol.",
+  "type": "module",
+  "main": "dist/stdio.js",
+  "bin": {
+    "nanopayments-mcp-course": "dist/stdio.js"
+  },
+  "files": [
+    "dist",
+    ".docs",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/stdio.js",
+    "test": "npx tsx test-course.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.17.5"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "@types/node": "^22.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "circle",
+    "nanopayments",
+    "usdc",
+    "micropayments",
+    "mcp",
+    "model-context-protocol",
+    "gateway",
+    "x402",
+    "stablecoin",
+    "payments"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
