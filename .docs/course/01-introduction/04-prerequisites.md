@@ -104,7 +104,7 @@ console.log("Setup complete. Generated test key:", key.slice(0, 10) + "...");
 ```
 
 ```bash
-tsx index.ts
+npx tsx index.ts
 ```
 
 ## Next Step

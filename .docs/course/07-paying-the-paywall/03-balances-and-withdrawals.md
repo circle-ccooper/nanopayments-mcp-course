@@ -27,7 +27,7 @@ console.log(`  Total: ${balances.gateway.formattedTotal} USDC`);
 Run it:
 
 ```bash
-tsx --env-file=.env buyer/balance.ts
+npx tsx --env-file=.env buyer/balance.ts
 ```
 
 ### Balance Fields
@@ -84,13 +84,13 @@ console.log(`  Gateway available: ${after.gateway.formattedAvailable} USDC`);
 Run it to withdraw 0.50 USDC (the default):
 
 ```bash
-tsx --env-file=.env seller/withdraw.ts
+npx tsx --env-file=.env seller/withdraw.ts
 ```
 
 Or specify a custom amount:
 
 ```bash
-tsx --env-file=.env seller/withdraw.ts 0.25
+npx tsx --env-file=.env seller/withdraw.ts 0.25
 ```
 
 The script shows the merchant's balances before and after the withdrawal so you can confirm the earnings moved from Gateway to the merchant's on-chain wallet.

@@ -23,7 +23,7 @@ All of this happens in a single `client.pay()` call.
 
 ## Prerequisites
 
-- Seller server running from Module 4 (`tsx --env-file=.env seller/server.ts`)
+- Seller server running from Module 4 (`npx tsx --env-file=.env seller/server.ts`)
 - Gateway balance from Module 6
 
 ## Next Step

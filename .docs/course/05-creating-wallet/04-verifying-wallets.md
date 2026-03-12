@@ -61,7 +61,7 @@ if (allValid) {
 Run it:
 
 ```bash
-tsx --env-file=.env scripts/verify-wallets.ts
+npx tsx --env-file=.env scripts/verify-wallets.ts
 ```
 
 Expected output:

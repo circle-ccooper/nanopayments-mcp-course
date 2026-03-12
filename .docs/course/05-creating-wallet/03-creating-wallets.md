@@ -71,7 +71,7 @@ if (envContent.includes("CONSUMER_PRIVATE_KEY=0x")) {
 Run the script:
 
 ```bash
-tsx scripts/create-wallets.ts
+npx tsx scripts/create-wallets.ts
 ```
 
 Expected output:

@@ -5,7 +5,7 @@ Start the seller server and verify it returns `402 Payment Required` for unpaid 
 ## Start the Server
 
 ```bash
-tsx --env-file=.env seller/server.ts
+npx tsx --env-file=.env seller/server.ts
 ```
 
 Expected output:

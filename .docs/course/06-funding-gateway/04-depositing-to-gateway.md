@@ -37,7 +37,7 @@ console.log(`\nUpdated Gateway balance: ${updated.gateway.formattedAvailable} US
 Run it:
 
 ```bash
-tsx --env-file=.env buyer/deposit.ts
+npx tsx --env-file=.env buyer/deposit.ts
 ```
 
 ## What `client.deposit()` Does

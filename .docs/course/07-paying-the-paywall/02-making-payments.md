@@ -34,7 +34,7 @@ console.log("Response:", JSON.stringify(data, null, 2));
 Run it (with the seller server running):
 
 ```bash
-tsx --env-file=.env buyer/pay.ts http://localhost:3000/weather
+npx tsx --env-file=.env buyer/pay.ts http://localhost:3000/weather
 ```
 
 Expected output:
