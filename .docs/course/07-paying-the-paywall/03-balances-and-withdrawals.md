@@ -95,11 +95,13 @@ npx tsx --env-file=.env seller/withdraw.ts 0.25
 
 The script shows the merchant's balances before and after the withdrawal so you can confirm the earnings moved from Gateway to the merchant's on-chain wallet.
 
+Copy the `mintTxHash` from the script output and paste it into the [Arc Testnet block explorer](https://testnet.arcscan.app/) to confirm the withdrawal was recorded on-chain.
+
 ### How Withdrawal Works
 
 1. `client.withdraw(amount)` tells Gateway to transfer USDC from the merchant's Gateway balance to their wallet
-2. Gateway initiates the on-chain transaction — the merchant does not pay gas
-3. The `mintTxHash` is the on-chain transaction hash you can verify on a block explorer
+2. The SDK submits the on-chain transaction — the merchant pays a small gas fee
+3. The `mintTxHash` is the on-chain transaction hash you can look up on the block explorer
 4. Same-chain withdrawals are instant
 
 ### Cross-Chain Withdrawals

@@ -27,7 +27,7 @@ Arc is Circle's L1 blockchain purpose-built for stablecoin finance. On Arc, **US
 | Chain ID | `5042002` |
 | Native Token | USDC |
 | RPC URL | `https://arc-testnet.drpc.org` |
-| Block Explorer | `https://explorer-testnet.arc.circle.com` |
+| Block Explorer | [`https://testnet.arcscan.app`](https://testnet.arcscan.app/) |
 | USDC Contract | `0x3600000000000000000000000000000000000000` |
 
 The USDC contract address above provides an optional ERC-20 interface for standard operations like `approve`, `transferFrom`, and `balanceOf`. ERC-20 calls directly affect the native USDC balance.

@@ -50,6 +50,10 @@ The `GatewayClient.deposit()` method handles both the ERC-20 approval and the Ga
 
 After the deposit confirms, your Gateway balance is available for gasless payments.
 
+## Verify on the Block Explorer
+
+Copy the `depositTxHash` (and `approvalTxHash` if one was printed) from the script output and paste it into the [Arc Testnet block explorer](https://testnet.arcscan.app/). Search for the transaction hash to confirm your deposit was recorded on-chain.
+
 ## Congratulations
 
 You've funded your Gateway wallet! Your consumer wallet now has a Gateway balance that can be used for gasless nanopayments.
