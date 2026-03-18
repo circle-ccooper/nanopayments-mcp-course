@@ -26,7 +26,7 @@ Arc is Circle's L1 blockchain purpose-built for stablecoin finance. On Arc, **US
 |----------|-------|
 | Chain ID | `5042002` |
 | Native Token | USDC |
-| RPC URL | `https://arc-testnet.drpc.org` |
+| RPC URL | `https://rpc.testnet.arc.network` |
 | Block Explorer | [`https://testnet.arcscan.app`](https://testnet.arcscan.app/) |
 | USDC Contract | `0x3600000000000000000000000000000000000000` |
 

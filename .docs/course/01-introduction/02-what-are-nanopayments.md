@@ -8,7 +8,7 @@ Traditional payment systems don't work for high-frequency, low-value transaction
 
 | Approach | Problem |
 |----------|---------|
-| **Credit cards** | High fixed fees (~$0.30 per transaction) make sub-dollar payments uneconomical |
+| **Credit cards** | High fixed fees (~1% to 3% per transaction) make sub-dollar payments uneconomical |
 | **On-chain transfers** | Each transaction costs gas, making sub-cent payments impractical |
 | **Subscriptions** | Overpay for light usage, underpay for heavy usage |
 
