@@ -60,4 +60,4 @@ You've funded your Gateway wallet! Your consumer wallet now has a Gateway balanc
 
 ## Next Step
 
-Pay for resources on your seller server using the Gateway client.
+Verify your deposit worked by testing your balances.

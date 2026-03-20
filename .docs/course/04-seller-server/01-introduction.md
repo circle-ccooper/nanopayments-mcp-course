@@ -28,4 +28,4 @@ The middleware handles all payment negotiation, verification, and settlement. Yo
 
 ## Next Step
 
-Create the Express server with the Gateway middleware.
+Understand why this architecture is the right choice for nanopayment APIs.

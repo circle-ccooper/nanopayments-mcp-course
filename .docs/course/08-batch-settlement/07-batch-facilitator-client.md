@@ -48,4 +48,4 @@ async function handleRequest(req: any, res: any) {
 
 ## Next Step
 
-Learn about cross-chain capabilities.
+Learn about dynamic pricing strategies using the BatchFacilitatorClient.

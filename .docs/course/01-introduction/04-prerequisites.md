@@ -109,4 +109,4 @@ npx tsx index.ts
 
 ## Next Step
 
-Learn how Circle Gateway makes gasless nanopayments possible.
+Test that your setup works before moving on.

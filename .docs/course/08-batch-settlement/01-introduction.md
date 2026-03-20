@@ -4,13 +4,15 @@ You've built a complete nanopayment system — a seller API with an x402 paywall
 
 ## What's Covered
 
+- Why batched settlement matters for nanopayment economics
 - How Gateway verifies each payment signature
 - The security architecture (TEE + on-chain verification)
 - Dispute resolution and non-repudiation
 - Using `BatchFacilitatorClient` for custom server frameworks
 - Cross-chain capabilities
-- Production considerations
+- Production best practices: key management, monitoring, and pricing
+- Error handling and troubleshooting
 
 ## Next Step
 
-Learn how Gateway verifies each payment.
+Understand why batched settlement is the key to viable sub-cent payments.

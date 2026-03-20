@@ -29,4 +29,4 @@ AWS Nitro Enclaves produce cryptographic attestation documents that prove the en
 
 ## Next Step
 
-Learn about dispute resolution and non-repudiation.
+Learn how on-chain verification works at the smart contract level.

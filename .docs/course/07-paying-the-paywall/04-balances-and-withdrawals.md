@@ -127,4 +127,4 @@ You've completed the full buyer flow:
 
 ## Next Step
 
-In the final module, learn how batch settlement, verification, and security work under the hood.
+Test the full payment flow end-to-end to verify everything works correctly.

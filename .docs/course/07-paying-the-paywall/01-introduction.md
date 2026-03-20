@@ -28,4 +28,4 @@ All of this happens in a single `client.pay()` call.
 
 ## Next Step
 
-Pay for your first x402-protected resource.
+Understand how the payment flow works under the hood before writing code.

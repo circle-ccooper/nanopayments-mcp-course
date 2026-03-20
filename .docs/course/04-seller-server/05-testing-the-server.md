@@ -70,4 +70,4 @@ You've built an x402 nanopayment paywall! Any x402-compatible client can now pay
 
 ## Next Step
 
-Create a wallet so you can fund it and start paying.
+If you hit any issues, check the troubleshooting page. Otherwise, move on to create a wallet so you can fund it and start paying.
